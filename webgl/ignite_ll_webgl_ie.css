@@ -1,0 +1,6 @@
+#frame .resource, #frame .link_node{
+	font-size: smaller;
+}
+#frame .resource .title, #frame .link_node .title{
+	font-size: smaller;
+}

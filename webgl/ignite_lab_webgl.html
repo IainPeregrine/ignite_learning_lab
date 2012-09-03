@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mozilla Ignite Learning Lab - WebGL</title>
+        <link rel="stylesheet" type="text/css" href="ignite_ll_webgl.css" />
+        <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="ignite_ll_webgl_ie.css" />
+        <![endif]-->
+        <script src="popcorn-complete.js"></script>
+        <script src="ignite_ll_webgl_main.js"></script>
+        <script src="ignite_ll_webgl_resources.js"></script>
+        <script src="global_popcorn_events.js"></script>
+    </head>
+    <body>
+        <div id="frame">
+            <div id="slider">
+                <div id="video_content">
+                    <video id="webgl_lab" controls>
+                        <source src="ignite_ll_test.mp4"></source>
+                        <source src="ignite_ll_test.webm"></source>
+                        <source src="ignite_ll_test.theora.ogv"></source>
+                    </video>
+                    <div id="walkthrough">
+                        <a id="walkthrough_link" href="#"><div>Walkthrough</div></a>
+                        <audio id="walkthrough_audio">
+                            <source src="Walkthrough.ogg"></source>
+                        </audio>
+                    </div>
+                </div>
+                <div id="resources">
+                    <!-- This decorative img element is included here and not in CSS as a result of
+                        issues with scaling of svg background images. -->
+                    <img class="logo_background" alt="decorative background" src="Ignite_Embossed_Logo.svg" />
+                    <ul id="resource_list"></ul>
+                </div>
+                <div id="community"></div>
+            </div>
+            <img id="logo1" class="logo_centered" alt="Mozilla Ignite Logo" src="Ignite_w_Text.svg" />
+            <img id="logo2" class="logo_centered" alt="WebGL Learning Lab Logo" src="WebGL_w_Text.svg" />
+            <a href="#"><img id="arrow_left" class="slider_arrow interface" alt="Move Left" src="L_Arrow.svg" /></a>
+        <a href="#"><img id="arrow_right" class="slider_arrow interface" alt="Move Right" src="R_Arrow.svg" /></a>
+        </div>
+    </body>
+</html>
